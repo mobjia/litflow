@@ -1,0 +1,7 @@
+interface:
+  display_name: "LitFlow"
+  short_description: "精读论文并生成 Obsidian 中文笔记"
+  default_prompt: "Use $litflow to deeply read this paper PDF and save a Chinese Obsidian note."
+
+policy:
+  allow_implicit_invocation: true

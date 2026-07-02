@@ -1,0 +1,42 @@
+﻿/* Optional Obsidian CSS snippet for LitFlow notes.
+   Enable only if your note frontmatter includes:
+   cssclasses: [paper-note, literature-card]
+*/
+
+.paper-note.literature-card {
+  --paper-accent: #2f6f73;
+  --paper-soft: rgba(47, 111, 115, 0.08);
+  --paper-border: rgba(47, 111, 115, 0.28);
+}
+
+.paper-note.literature-card .markdown-preview-view h1,
+.paper-note.literature-card.markdown-preview-view h1 {
+  line-height: 1.2;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--paper-border);
+}
+
+.paper-note.literature-card .callout[data-callout="summary"],
+.paper-note.literature-card.markdown-preview-view .callout[data-callout="summary"] {
+  border-color: var(--paper-border);
+  background: var(--paper-soft);
+}
+
+.paper-note.literature-card table {
+  width: 100%;
+}
+
+.paper-note.literature-card img {
+  display: block;
+  margin: 0.75rem auto 0.5rem;
+  max-width: 100%;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+}
+
+.paper-note.literature-card h2 {
+  margin-top: 1.8rem;
+}
+
+
+
